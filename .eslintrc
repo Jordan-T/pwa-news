@@ -3,11 +3,9 @@
     "browser": true,
     "node": true
   },
+  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
-  },
-  "rules": {
-    "semi": 2
+    "sourceType": "module",
+    "extends": "standard"
   }
 }
